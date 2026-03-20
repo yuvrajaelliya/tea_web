@@ -1,6 +1,8 @@
-// Dark Mode Toggle
-document.getElementById("modeToggle").addEventListener("click", function() {
-    document.body.classList.toggle("dark-mode");
+// Light Theme Only - Dark mode removed by request
+
+// Explore Button Smooth Scroll
+document.getElementById("exploreBtn").addEventListener("click", function() {
+    document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
 });
 
 // Menu Filter

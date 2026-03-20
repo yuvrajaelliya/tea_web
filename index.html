@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yuvii's Tea Lounge</title>
+<meta name="description" content="Welcome to Bahuchar Tea Stall in Palanpur. Discover premium teas, cold brews, and a cozy ambience. Serving the finest beverages since 2026.">
+<meta name="keywords" content="tea, coffee, Palanpur cafe, masala chai, green tea, herbal tea, cold brew coffee, cafe near me, Yuvii">
+<meta name="author" content="Yuvraj Aelliya">
+
+<!-- Open Graph Social Tags -->
+<meta property="og:title" content="Bahuchar Tea Stall | Premium Tea & Coffee">
+<meta property="og:description" content="Experience premium beverages and a cozy ambience in Palanpur's finest Bahuchar Tea Stall.">
+<meta property="og:type" content="website">
+
+<title>Bahuchar Tea Stall | Premium Tea & Coffee in Palanpur</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -11,21 +20,21 @@
 <body>
 
 <header id="navbar">
-    <div class="logo">☕ Tea Lounge</div>
+    <div class="logo">☕ Bahuchar Tea Stall</div>
     <nav>
         <a href="#home">Home</a>
         <a href="#menu">Menu</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        
     </nav>
 </header>
 
+<main>
 <section class="hero" id="home">
     <div class="hero-content">
         <h1>Where Every Sip Tells a Story</h1>
         <p>Freshly brewed happiness served daily.</p>
-        <button class="primary-btn">Explore Menu</button>
+        <button class="primary-btn" id="exploreBtn">Explore Menu</button>
     </div>
 </section>
 
@@ -41,41 +50,49 @@
     <div class="menu-items">
 
         <div class="item hot">
+            <img src="assets/masala_chai.png" alt="Masala Chai" class="item-img">
             <h3>Masala Chai</h3>
             <span>₹15</span>
         </div>
 
         <div class="item hot">
+            <img src="assets/ginger_tea.png" alt="Ginger Tea" class="item-img">
             <h3>Ginger Tea</h3>
             <span>₹20</span>
         </div>
 
         <div class="item hot">
+            <img src="assets/green_tea.png" alt="Green Tea" class="item-img">
             <h3>Green Tea</h3>
             <span>₹25</span>
         </div>
 
         <div class="item hot">
+            <img src="assets/herbal_tea.png" alt="Herbal Tea" class="item-img">
             <h3>Herbal Tea</h3>
             <span>₹30</span>
         </div>
 
         <div class="item cold">
+            <img src="assets/cold_coffee.png" alt="Cold Coffee" class="item-img">
             <h3>Cold Coffee</h3>
             <span>₹40</span>
         </div>
 
         <div class="item cold">
+            <img src="assets/iced_lemon_tea.png" alt="Iced Lemon Tea" class="item-img">
             <h3>Iced Lemon Tea</h3>
             <span>₹25</span>
         </div>
 
         <div class="item cold">
+            <img src="assets/iced_mint_tea.png" alt="Iced Mint Tea" class="item-img">
             <h3>Iced Mint Tea</h3>
             <span>₹28</span>
         </div>
 
         <div class="item cold">
+            <img src="assets/cold_brew.png" alt="Cold Brew Coffee" class="item-img">
             <h3>Cold Brew</h3>
             <span>₹45</span>
         </div>
@@ -83,12 +100,34 @@
     </div>
 </section>
 
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About Bahuchar Tea Stall</h2>
+        <p>Welcome to Bahuchar Tea Stall, where every cup tells a story. Since 2026, we have been passionately brewing the finest teas and coffees, sourcing premium ingredients to offer an unforgettable experience.</p>
+        <p>Whether you are here to unwind with a calming herbal tea or get energized with a rich cold brew, our cozy ambience and crafted beverages are designed to bring peace to your day.</p>
+    </div>
+</section>
 
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <p id="review">"Best chai in town!"</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <p>We'd love to hear from you. Visit us or reach out via email.</p>
+    <div class="contact-card">
+        <p>📍 Palanpur Tea Street, Coffee City</p>
+        <p>📞 +91 7096609708</p>
+        <p>📧 yuvrajaelliya@gmail.com</p>
+    </div>
+</section>
+</main>
 
 <footer>
     <div class="footer-content">
         <div class="footer-section">
-            <h3>☕ Tea Lounge</h3>
+            <h3>☕ Bahuchar Tea Stall</h3>
             <p>Serving the finest tea and coffee since 2026</p>
         </div>
         <div class="footer-section">
@@ -102,21 +141,20 @@
         </div>
         <div class="footer-section">
             <h4>Contact Info</h4>
-            <p>📍 ,Palanpur Tea Street, Coffee City</p>
+            <p>📍 Palanpur Tea Street, Coffee City</p>
             <p>📞 +91 7096609708</p>
             <p>📧 yuvrajaelliya@gmail.com</p>
         </div>
         <div class="footer-section">
             <h4>Follow Us</h4>
             <div class="social-links">
-                <a href="#">📘 Facebook</a>
-                <a href="#">📷 Instagram</a>
-                <a href="#">🐦 Twitter</a>
+                <a href="https://www.facebook.com/aelliya.yuvraj/" target="_blank">📘 Facebook</a>
+                <a href="https://www.instagram.com/yuvi_xii/" target="_blank">📷 Instagram</a>
             </div>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Tea Lounge | Designed with Peace | All Rights Reserved</p>
+        <p>© 2026 Bahuchar Tea Stall | Designed with Peace | All Rights Reserved</p>
     </div>
 </footer>
 
