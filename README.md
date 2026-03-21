@@ -15,16 +15,6 @@ This project is a fully responsive landing page designed with a sleek, glassmorp
 
 <br/>
 
-## ✨ Key Features
-
-- **📱 Fully Responsive:** Flawlessly adapts to mobile, tablet, and desktop screens using modern CSS Grids.
-- **🎨 Premium Aesthetic:** A curated palette of deep matcha greens (`#2D3A31`), sleek ivories (`#FFFCF7`), and warm peach accents (`#E89B6F`).
-- **🌙 Glassmorphism:** Clean, translucent navigation and contact cards for a modern appeal.
-- **⚡ Blazing Fast:** Local, high-quality generated imagery providing an optimal, layout-shift-free loading experience.
-- **🔍 SEO Ready:** Structurally sound with semantic HTML `<main>` tags, Open Graph meta tags, and rich descriptions.
-
-<br/>
-
 ## 🍰 Our Menu Highlight
 
 * **Hot Teas:** Masala Chai, Ginger Tea, Green Tea, Herbal Tea
@@ -32,13 +22,6 @@ This project is a fully responsive landing page designed with a sleek, glassmorp
 
 <br/>
 
-## 🛠️ Technology Stack
-
-1. **HTML5:** Semantic, clean structure
-2. **CSS3:** Advanced flexbox/grid layouts, keyframe animations, and custom styling
-3. **Vanilla JavaScript:** DOM manipulations and smooth scrolling interactions
-
-<br/>
 
 ## 📬 Connect With Us
 

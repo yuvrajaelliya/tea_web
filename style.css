@@ -22,9 +22,9 @@ header {
     align-items: center;
     padding: 15px 50px;
     color: #2C5F4F;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(44, 95, 79, 0.1);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    z-index: 1;
+    border-bottom: 1px solid rgba(203, 248, 98, 0.644);
+    
 }
 
 nav a {
@@ -32,7 +32,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: 600;
-    transition: 0.3s;
+    
 }
 
 nav a:hover {
@@ -197,6 +197,7 @@ nav a:hover {
     background: linear-gradient(135deg, #2D3A31, #1F4A42);
     padding: 80px 50px;
     text-align: center;
+    margin: 50px auto;
 }
 
 .contact h2 {
@@ -230,21 +231,6 @@ nav a:hover {
     color: #FFD4A3;
 }
 
-.scroll-image {
-    width: 100%;
-    max-width: 600px;
-    margin: 40px auto;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.6s ease-in-out;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-}
-
-.scroll-image.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 
 
