@@ -23,6 +23,7 @@ const reviews = [
     '"Amazing ambience and taste!"',
     '"No one can compare this tea!"',
     '"Uncles tea is best in world!"',
+    '"the hot is best in world!"',
     '"Affordable and delicious!"'
 ];
 
